@@ -39,12 +39,7 @@ export default function Dashboard() {
         <Link href="/make-schedule">
           <div className={outerCardStyle}>
             <div className={`${innerCardStyle} relative`}>
-              <Image
-                src="/dashboard/Schedule.jpeg"
-                alt="Make Schedule"
-                width={300}
-                height={160}
-                className="rounded-xl object-cover w-full h-full"
+              <Image src="/dashboard/Schedule.jpeg" alt="Make Schedule" width={300} height={160} className="rounded-xl object-cover w-full h-full"
                 priority
               />
             </div>
@@ -55,7 +50,7 @@ export default function Dashboard() {
         <Link href="/add-subjects">
           <div className={outerCardStyle}>
             <div className={`${innerCardStyle} relative`}>
-              <Image
+               <Image
                 src="/dashboard/add-subjects.gif"
                 alt="Add Subjects"
                 width={300}
@@ -70,13 +65,7 @@ export default function Dashboard() {
         <Link href="/quiz">
           <div className={outerCardStyle}>
             <div className={`${innerCardStyle} relative`}>
-              <Image
-                src="/dashboard/Quiz.gif"
-                alt="Quiz"
-                width={1000}
-                height={900}
-                className="rounded-xl object-contain w-full h-full"
-              />
+              <Image src="/dashboard/Quiz.gif" alt="Quiz" width={1000} height={900} className="rounded-xl object-contain w-full h-full"/>
             </div>
             <p className="mt-4 font-semibold text-white text-center">Quiz</p>
           </div>
